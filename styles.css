@@ -502,8 +502,8 @@ h5 {
   }
 
   .wrapper ul li a {
-  line-height: 30px;
-}
+    line-height: 30px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -561,7 +561,7 @@ h5 {
     float: right;
     transition: 0.4s;
   }
-  
+
   button:hover {
     background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
