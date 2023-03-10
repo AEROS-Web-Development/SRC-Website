@@ -1,18 +1,17 @@
 @font-face {
   font-family: "Satoshi";
-  src: url("./Satoshi-Variable.woff2") format("woff2");
+  src: url("./Main-Fonts/Satoshi-Variable.woff2") format("woff2");
   font-weight: 300 900;
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("./Satoshi-VariableItalic.woff2") format("woff2");
+  src: url("./Main-Fonts/Satoshi-VariableItalic.woff2") format("woff2");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Aileron";
-  src: url("./aileron-semibold-webfont.woff2") format("woff2"),
-    url("aileron-semibold-webfont.woff") format("woff");
+  src: url("./Main-Fonts/aileron-semibold-webfont.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
