@@ -1,6 +1,7 @@
 video.orientation-vid {
   margin-left: 20%;
   margin-right: 20%;
+  width: 60%;
   margin-top: 30px;
   z-index: 10;
   color: red;
@@ -49,4 +50,14 @@ h4 {
     margin-left: 15%;
    
   }
+
+  video.orientation-vid {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    margin-top: 30px;
+    z-index: 10;
+    color: red;
+  }
+  
 }
