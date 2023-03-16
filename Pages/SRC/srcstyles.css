@@ -36,7 +36,7 @@ html {
       rgba(16, 11, 34, 0.678) 30%,
       rgba(94, 67, 203, 0.603) 90%
     ),
-    url("/img/SRC-20222023-BG.jpg");
+    url("img/SRC-20222023-BG.jpg");
   background-size: 120vw;
   background-repeat: none;
   position: relative;
