@@ -479,7 +479,7 @@ p.title2 {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 20000000px) {
   html {
     font-size: 80%;
     overflow-x: hidden;
