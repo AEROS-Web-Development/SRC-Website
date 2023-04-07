@@ -319,9 +319,11 @@ h3 {
 .form {
   background-color: #04020e;
   width: 100%;
-  height: 200%;
+  height: 100vh;
   padding: 0;
   margin: 0;
+  overflow: hidden;
+  
 }
 
 h4.centre {
