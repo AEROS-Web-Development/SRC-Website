@@ -31,8 +31,7 @@ html {
   opacity: 1;
   padding: 0%;
   margin: 0%;
-  background-image:
-    url("/img/SRC-20222023-BG.jpg");
+  background-image: url("/img/SRC-20222023-BG.jpg");
   background-size: 120vw;
   background-repeat: none;
   position: relative;
@@ -267,7 +266,6 @@ p.title2 {
 /*mobile*/
 
 @media screen and (max-width: 768px) {
-
   h6 {
     font-family: "Satoshi";
     font-size: 5.9rem;
@@ -320,8 +318,7 @@ p.title2 {
     opacity: 1;
     padding: 0%;
     margin: 0%;
-    background-image:
-      url('/img/SRC-20222023-BG-mobile.jpg');
+    background-image: url("/img/SRC-20222023-BG-mobile.jpg");
     background-size: 150vw;
     background-repeat: none;
     position: relative;
@@ -472,6 +469,11 @@ p.title2 {
     margin: 0;
     position: relative;
   }
+
+  .footer {
+    position: relative;
+    top: calc(375px * 13);
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -583,4 +585,3 @@ p.title2 {
     padding-bottom: 10px;
   }
 }
-

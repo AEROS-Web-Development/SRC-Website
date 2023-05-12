@@ -333,6 +333,15 @@ h4.centre {
   padding-left: 0%;
   padding-bottom: 10px;
 }
+h4 {
+  font-family: "Satoshi";
+  font-weight: 900;
+  font-size: 7rem;
+  padding-top: 10rem;
+  padding-bottom: 3.5rem;
+  padding-left: 15px;
+  mix-blend-mode: exclusion;
+}
 
 p.centre {
   margin: 0;
@@ -457,6 +466,16 @@ h5 {
 
   .red {
     text-align: left;
+  }
+
+  h4.centre {
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 0%;
+    padding-bottom: 10px;
+    font-size: 6rem;
+    line-height: 6rem;
   }
 
   .chair-img {
@@ -606,10 +625,11 @@ h5 {
 .footer {
   display: flex;
   flex-flow: row wrap;
-  padding: 30px 30px 20px 30px;
+  padding: 30px 30px 30px 30px;
   color: #2f2f2f;
   background-color: #04020e;
   border-top: 1px solid #e5e5e5;
+  
 }
 
 .footer > * {
