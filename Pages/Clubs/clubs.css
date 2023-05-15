@@ -340,6 +340,11 @@ p.title2 {
     margin: 0;
     position: relative;
   }
+
+  footer.footer {
+    position: relative;
+    top: 100vw;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -450,4 +455,6 @@ p.title2 {
     padding-left: 10px;
     padding-bottom: 10px;
   }
+
+  
 }

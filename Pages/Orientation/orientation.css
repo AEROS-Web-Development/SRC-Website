@@ -27,8 +27,6 @@ h1 {
   text-align: center;
   padding-top: 20px;
   z-index: 10;
-  text-decoration: underline;
-  text-decoration-color: rgba(205, 21, 43, 1);
 }
 
 h4 {
@@ -40,6 +38,12 @@ h4 {
   margin-right: 20%;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 5rem;
@@ -48,7 +52,10 @@ h4 {
     font-size: 3rem;
     margin-right: 15%;
     margin-left: 15%;
-   
+  }
+
+  .content {
+    margin: 0 0 80px 0;
   }
 
   video.orientation-vid {
@@ -59,5 +66,8 @@ h4 {
     z-index: 10;
     color: red;
   }
-  
+
+  span.stars.italic {
+    margin-bottom: 0px;
+  }
 }
