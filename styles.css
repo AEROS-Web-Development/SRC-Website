@@ -29,9 +29,6 @@ html {
   font-family: "Aileron";
 }
 
-body {
-  height: 100vh;
-}
 
 /*fonts*/
 /*navbar*/
@@ -319,7 +316,7 @@ h3 {
 .form {
   background-color: #04020e;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   padding: 0;
   margin: 0;
   overflow: hidden;
