@@ -63,7 +63,6 @@ html {
   background: #222222;
   border-radius: 3px;
   box-shadow: var(--shadow-2);
-  height: 700px;
   transition: 0.4s ease-in-out;
   cursor: pointer;
 }
@@ -356,6 +355,7 @@ p.title2 {
     font-family: "Aileron";
   }
 
+
   p.newlecture {
     font-family: "Aileron";
     font-weight: 500;
@@ -368,78 +368,6 @@ p.title2 {
     text-align: left;
   }
 
-  .media-scroller {
-    --_spacer: 15px;
-    display: grid;
-    gap: var(--_spacer);
-    grid-auto-flow: column;
-    grid-auto-columns: 18%;
-
-    padding: 0 var(--_spacer) var(--_spacer);
-
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-    background-color: #04020e00;
-  }
-
-  .media-scroller--with-groups {
-    grid-auto-columns: 80%;
-  }
-
-  .media-group {
-    display: grid;
-    gap: var(--_spacer);
-    grid-auto-flow: column;
-  }
-
-  .media-element {
-    display: grid;
-
-    gap: 8px;
-    background: rgb(4, 2, 14);
-    background: linear-gradient(
-      180deg,
-      rgba(4, 2, 14, 1) 69%,
-      rgba(205, 21, 43, 1) 100%
-    );
-    border-radius: 3px;
-    box-shadow: var(--shadow-2);
-    height: 60vh;
-    transition: 0.4s ease-in-out;
-    cursor: pointer;
-  }
-
-  .media-element:hover {
-    display: grid;
-    background: rgb(4, 2, 14);
-    background: linear-gradient(
-      180deg,
-      rgba(4, 2, 14, 1) 69%,
-      rgba(205, 21, 43, 1) 100%
-    );
-    border-radius: 3px;
-    box-shadow: var(--shadow-2);
-    height: 60vh;
-  }
-
-  .media-element > img {
-    inline-size: 100%;
-    height: 40vh;
-    object-fit: cover;
-    object-position: center;
-    float: bottom;
-    border-radius: 3px;
-    transition: 0.25s ease-out;
-  }
-
-  .media-element:hover img {
-    inline-size: 100%;
-    height: 40vh;
-    object-fit: cover;
-    object-position: center;
-    float: bottom;
-    border-radius: 3px;
-  }
 
   p.title {
     font-family: "Aileron";
