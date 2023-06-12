@@ -218,7 +218,7 @@ p.newlecture {
   display: grid;
   gap: var(--_spacer);
   grid-auto-flow: column;
-  grid-auto-columns: 50%;
+  grid-auto-columns: %;
 
   padding: 0 var(--_spacer) var(--_spacer);
 
